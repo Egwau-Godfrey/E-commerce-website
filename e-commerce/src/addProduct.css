@@ -1,0 +1,43 @@
+/* AddProducts.css */
+
+/* Style the tradercontainer */
+.tradercontainer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  
+  /* Style the headings inside traderinputs */
+  .traderinputs h3 {
+    margin: 0;
+    padding: 8px 0;
+  }
+  
+  /* Style the input fields */
+  .traderinputs input[type="text"],
+  .traderinputs input[type="file"],
+  .traderinputs textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  /* Style the Save button */
+  .button button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+
+  

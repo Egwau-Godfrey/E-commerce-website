@@ -1,0 +1,100 @@
+/* trader.css */
+nav {
+    background-color: #417690;
+  }
+  
+  .traderBar {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.8em;
+    margin: 0;
+  }
+  
+  .traderPageTitle {
+    margin: 0;
+    padding: 0;
+  }
+
+  .traderPageTitle li {
+    color: white;
+    list-style: none;
+  }
+  
+  .Logoutdetails {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .Logoutdetails li {
+    list-style: none;
+    margin-left: 10px; /* Add spacing between items */
+    color: white; /* Text color for items in Logoutdetails */
+  }
+
+  .Logoutdetails .logoutbtn {
+    background-color: #417690;
+    color: white;
+  }
+
+  .Logoutdetails button:hover {
+    background-color: rgb(235, 179, 75);
+  }
+  
+/* Below the style for traderData*/
+
+
+  /* Center the table on the page */
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+.Overrall .saveChanges {
+  margin-left: 45px;
+}
+
+/* Style the table */
+.table {
+  width: 80%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the table horizontally */
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  text-align: left;
+  vertical-align: middle;
+  border: 1px solid #ccc;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+/* Style the buttons */
+.saveChanges, .addProduct {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.saveChanges:hover,
+.addProduct:hover {
+  background-color: #0056b3;
+}
